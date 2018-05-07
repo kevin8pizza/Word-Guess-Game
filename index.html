@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="game.js"></script>
 </head>
+<!-- have a picture of Luke Hanging or Han in Carbonite as the "hangman" -->
 
 <body background="assets/images/lukehanging.jpeg">
     <row>
@@ -20,23 +21,33 @@
         </header>
     </row>
     <row>
-        <h3 class='col-md-6'>Press any key to get started!</h3>
+        <h4 class='col-md-6'>Press any key to get started!</h4>
     </row>
     <row>
-        <h2 class="col-md-6">Wins:</h2>
-        <h2 class='col-md-6'><!-- current win count --></h2>
+        <h3 class="col-md-6">Wins:</h2>
+            <h3 class='col-md-6' 'winCounter'></h3>
+            <!-- current win count -->
     </row>
-    
+
     <row>
-        <!-- Current Word: _ _ _ _ _ _-->
+        <h2 class="col-md-6">Current Word:</h2>
+    </row>
+    <row>
+        <!-- _ _ _ _ _ _ for loop to have blanks-->
     </row>
     <row>
         <!-- Number of Guesses remaining: ## -->
+        <h3 class="col-md-6">Guesses remaining:</h3>
+        <h3 class='col-md-6' 'guessRemain'></h3>
+        <!-- remaining # guesses available -->
     </row>
     <row>
+        <h3 class="col-md-6">Letters guessed:</h3>
+        <h3 class='col-md-6' 'lettersGuessed'></h3>
         <!-- Letters Already Guessed: A B C -->
     </row>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
