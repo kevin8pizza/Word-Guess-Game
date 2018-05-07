@@ -1,13 +1,42 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Hangman</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
     <script src="game.js"></script>
 </head>
-<body>
+
+<body background="assets/images/lukehanging.jpeg">
+    <row>
+        <header class='col-md-12'>
+            <h1>Star Wars Hangman</h1>
+        </header>
+    </row>
+    <row>
+        <h3 class='col-md-6'>Press any key to get started!</h3>
+    </row>
+    <row>
+        <h2 class="col-md-6">Wins:</h2>
+        <h2 class='col-md-6'><!-- current win count --></h2>
+    </row>
     
+    <row>
+        <!-- Current Word: _ _ _ _ _ _-->
+    </row>
+    <row>
+        <!-- Number of Guesses remaining: ## -->
+    </row>
+    <row>
+        <!-- Letters Already Guessed: A B C -->
+    </row>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 </body>
+
 </html>
